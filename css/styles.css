@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+    background-color:wheat;
+    font-family: "Roboto";
+
+}
+
+p{
+    color: blue;
+}
+
+p:hover{
+    color: yellow;
+}
+
+.nav-lnk{
+    list-style: none;
+    color: brown;
+
+}
+.active{
+    color:blueviolet;
+}
+
+.nav .nav-list{
+    list-style: none;
+}
+
+.nav-lnk:hover,
+.nav-lnk:focus{
+    color: pink;
+}
+
+.nav-lnk:visited{
+    font-size: 35px;
+    color: purple;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&display=swap');
