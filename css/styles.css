@@ -47,10 +47,21 @@ p:hover{
     color: purple;
 }
 
-button:hover{
+.btn:hover,
+.btn:focus{
     cursor: pointer;
+    background-color: rgba(225, 225, 225, 1);
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    font-size: 12px;
+    line-height: 1.36;
+    letter-spacing: 0.09em;
+    font-weight: 600;
 }
 
 .footer{
     background-color:#2f303a;
+    margin: ;
+    padding:;
 }
