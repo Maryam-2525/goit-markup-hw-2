@@ -2,8 +2,8 @@
 
 body{
     background-color:#e5e5e5;
-    font-family: "Roboto";
-
+    font-family: "Roboto" ,"sans-serif";
+    
 
 
 
@@ -15,22 +15,42 @@ body{
     color:white;
 
 }
+.logo{
+    color:#2196F3;
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    box-align:left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    fill:solid;
+}
+.team{
+    background-color:#f5f4f4;
+}
+
 
 p{
-    color: blue;
+    color: #757575;
 }
 
 p:hover{
     color: yellow;
 }
 
-.nav-lnk{
+.list{
+    list-style-type: none;
+}
+
+.nav-lnk,active{
     list-style: none;
-    color: brown;
+    color:#2196F3;
 
 }
 .active{
-    color:blueviolet;
+    color:2196F3;
 }
 
 .nav .nav-list{
@@ -62,6 +82,6 @@ p:hover{
 
 .footer{
     background-color:#2f303a;
-    margin: ;
-    padding:;
+    color:#ffffff;
+
 }
