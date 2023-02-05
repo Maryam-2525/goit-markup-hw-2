@@ -9,6 +9,8 @@
     --dark-bg-color:  #2f303a;
     --light-bg-color: #f5f4f4;
     --btn-bg-color:#f5f4fa;
+    --footer-lnk-color:rgba(255, 255, 255, 0.6);
+    
 }
 
 body{
@@ -102,9 +104,7 @@ ul{
 }
 /* WHAT WE DO SECTION */
 .what-we-do-tittle{
-    vertical-align: Center;
-    font-family: 'Roboto';
-    font-style: regular;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -115,8 +115,7 @@ ul{
 /* SKILLS SECTION */
 .skills-header{
     vertical-align: Center;
-    font-family: 'Roboto';
-    font-style: regular;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -127,7 +126,6 @@ ul{
 }
 
 .skills-sec-tittle{
-    font-family: 'roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14);
@@ -136,7 +134,6 @@ ul{
 }
 
 .skills-sec-text{
-    font-family: 'roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -148,22 +145,20 @@ ul{
 }
 /* TEAM SECTION */
 .team-header{
-    vertical-align: Center;
-    font-family: 'Roboto';
-    font-style: regular;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-
+.team{
+    background-color: var(--light-bg-color);
+}
 
 .team-des{
-    vertical-align: Center ;
     text-align:center;
-    font-family: 'Roboto';
-    font-style: regular;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(19/16); 
@@ -171,9 +166,7 @@ ul{
     color: var(--main-text-color);
 }
 .team-text{ 
-    vertical-align: Center;
     text-align: center;
-    font-family: 'Roboto';
     font-style: medium;
     font-weight: 400;
     font-size: 16px;
@@ -206,7 +199,6 @@ ul{
 }
 
 .portfolio-des{
-    font-family: 'Roboto';
     font-style: medium;
     font-weight: 700;
     font-size: 18px;
@@ -216,7 +208,6 @@ ul{
 }
 
 .portfolio-text{
-    font-family: 'Roboto';
     font-style: medium;
     font-weight: 400;
     font-size: 16px;
@@ -226,6 +217,9 @@ ul{
 }
 
 /* FOOTER */
+.address{
+    color: var(--white-color);
+}
 
 .footer{
     background-color: var(--dark-bg-color);
@@ -234,10 +228,9 @@ ul{
 
 .footer-lnk{
    font-style: normal;
-   color: var(--secondary-text-color);
-   font-family: 'Roboto';
    font-size: 14px;
    line-height: calc(24/14);
    letter-spacing: 0.03em;
    vertical-align: top;
+   color:var(--footer-lnk-color);
 }
