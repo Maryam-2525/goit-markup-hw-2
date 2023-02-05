@@ -8,6 +8,7 @@
     --white-color: #ffffff;
     --dark-bg-color:  #2f303a;
     --light-bg-color: #f5f4f4;
+    --btn-bg-color:#f5f4fa;
 }
 
 body{
@@ -20,10 +21,6 @@ a{
 
 ul{
     list-style: none;
-}
-
-p{
-    color:var(--secondary-text-color)
 }
 
 
@@ -55,7 +52,7 @@ p{
     color: var(--other-color);
 }
 
-.header-contact{
+.header-contact-lnk{
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -63,8 +60,8 @@ p{
     color: var(--secondary-text-color);
 }
 
-.header-contact:hover,
-.header-contact:focus{
+.header-contact-lnk:hover,
+.header-contact-lnk:focus{
     color: var(--other-color);
 }
 
@@ -75,7 +72,7 @@ p{
 }
 
 .hero-title{
-    font-weight: 500;
+    font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
     text-align: center;
@@ -103,33 +100,92 @@ p{
     background-color: darkblue;
     color: yellow;
 }
+/* WHAT WE DO SECTION */
+.what-we-do-tittle{
+    vertical-align: Center;
+    font-family: 'Roboto';
+    font-style: regular;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/* SKILLS SECTION */
+.skills-header{
+    vertical-align: Center;
+    font-family: 'Roboto';
+    font-style: regular;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    
+
+}
+
+.skills-sec-tittle{
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em; 
+    color: var(--main-text-color);
+}
+
+.skills-sec-text{
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 
 
 
-.team{
-    background-color:var(--light-bg-color);
+}
+/* TEAM SECTION */
+.team-header{
+    vertical-align: Center;
+    font-family: 'Roboto';
+    font-style: regular;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+
+.team-des{
     vertical-align: Center ;
     text-align:center;
     font-family: 'Roboto';
-    font-style: normal;
+    font-style: regular;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(19/16); 
     letter-spacing: 0.03em;
-
-    
+    color: var(--main-text-color);
 }
+.team-text{ 
+    vertical-align: Center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: medium;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 
-img{
-    vertical-align:left ;
 }
+   
+/* PORTFOLIO SECTION */
 
-
-
-
-/* PORTFOLIO BUTTONS */
-
-.btn{
+.portfolio-btn-item{
     font-family: 'Roboto';
     font-style: medium;
     font-weight: 700;
@@ -139,14 +195,35 @@ img{
     letter-spacing: 0.06em;
     color: var(--main-text-color);
     cursor: pointer;
-
+    border: none;
+    background-color: var(--btn-bg-color);
 }
 
-.all{
+.portfolio-btn-item:hover,
+.portfolio-btn-item:focus{
     background-color: var(--other-color);
     color: var(--white-color);  
 }
 
+.portfolio-des{
+    font-family: 'Roboto';
+    font-style: medium;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);  
+    letter-spacing: 0.06em;
+    color: var(--main-text-color); 
+}
+
+.portfolio-text{
+    font-family: 'Roboto';
+    font-style: medium;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
 
 /* FOOTER */
 
@@ -155,8 +232,7 @@ img{
     color: var(--secondary-text-color);
 }
 
-
-.address{
+.footer-lnk{
    font-style: normal;
    color: var(--secondary-text-color);
    font-family: 'Roboto';
